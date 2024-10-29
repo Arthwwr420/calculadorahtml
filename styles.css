@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.calc{
+    background-color: grey;
+    padding: 10px;
+}
+.calc > input[type="text"]{
+    text-align: right;
+    color: white;
+    background-color: black
+}
+.calc > .buttongrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
